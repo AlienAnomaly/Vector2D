@@ -27,6 +27,6 @@ public:
   Vector2& operator*(float num);
 };
 
-bliss::math::Vector2 NormalizeVector(const Vector2& v);
+Vector2 NormalizeVector(const Vector2& v);
 float GetLength(const Vector2& v);
 

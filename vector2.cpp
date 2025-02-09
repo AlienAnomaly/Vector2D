@@ -109,7 +109,7 @@ Vector2& Vector2::operator*(float num)
   return *this;
 }
 
-bliss::math::Vector2 NormalizeVector(const Vector2& v)
+Vector2 NormalizeVector(const Vector2& v)
 {
   float mag = GetLength(v);
   Vector2 ret(v.X / mag, v.Y / mag);
